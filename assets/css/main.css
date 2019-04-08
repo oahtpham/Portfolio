@@ -3672,6 +3672,7 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		text-align: center;
 	}
 
 		#footer > * {
@@ -3710,7 +3711,7 @@ input, select, textarea {
 				}
 
 				#footer .copyright {
-					text-align: left;
+					text-align: center;
 				}
 
 		}
@@ -3761,4 +3762,12 @@ input, select, textarea {
 				max-width: 100%;
 			}
 
+		}
+
+		#logos {
+			text-align: center;
+		}
+
+		.devicon {
+			font-size: 4rem;
 		}
